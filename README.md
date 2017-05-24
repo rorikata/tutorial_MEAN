@@ -1,6 +1,7 @@
 # tutorial_MEAN
 
 5/25/2017
+
 Install MEAN stack (Mac)
 
 1. install nodebrew(node.js, npm)
@@ -30,3 +31,67 @@ If npm is already exists, delete by below command.(if npm is in the HOME directo
 ```
 sudo rm -rf ~/.npm
 ```
+
+Install nodebrew on HOME directory
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+```
+brew install node
+```
+Check $PATH
+
+```
+echo $PATH
+```
+
+If PATH does not contains "/.nodebrew/current/bin", follow this command.
+
+```
+vi $HOME/.bash_profile
+```
+Then write below code.
+```
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+```
+
+Check if installation succeeded.
+
+```
+nodebrew help
+```
+
+Install MongoDB
+
+```
+brew install mongodb
+```
+Make Directory for database
+```
+sudo mkdir -p /data/db
+sudo chmod 777 /data/db
+```
+Then run this command
+```
+mongod
+```
+After it work properly, exit by ctrl+c and run command below.
+```
+mongo
+```
+If it works, exit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
