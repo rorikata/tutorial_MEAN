@@ -1,5 +1,4 @@
 # Install MEAN stack (Mac)
-
 5/25/2017
 
 ## Requirements before install MEAN stack
