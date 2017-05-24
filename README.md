@@ -1,8 +1,8 @@
-# tutorial_MEAN
+# Install MEAN stack (Mac)
 
 5/25/2017
 
-Install MEAN stack (Mac)
+# Requirements before install MEAN stack
 
 ## 1. install nodebrew(node.js, npm)
 
