@@ -2,7 +2,9 @@
 
 5/25/2017
 Install MEAN stack (Mac)
+
 1. install nodebrew(node.js, npm)
+
 Check node.js and npm is already installed
 
 For node.js
