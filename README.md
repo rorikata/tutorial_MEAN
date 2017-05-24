@@ -1,1 +1,9 @@
-# tutorila_MEAN
+# tutorial_MEAN
+
+5/25/2017
+  Install MEAN stack (Mac)
+  1. install nodebrew(node.js, npm)
+    If node.js is already installed, delete by this command.
+    ---
+    lsbom -f -l -s -pf /var/db/receipts/org.nodejs.pkg.bom \ | while read i; do sudo rm /usr/local/${i} done sudo rm -rf /usr/local/lib/node \ /usr/local/lib/node_modules \ /var/db/receipts/org.nodejs.*
+    ---
