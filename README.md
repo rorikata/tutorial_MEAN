@@ -90,11 +90,22 @@ Follow command below
 ```
 sudo npm install -g gulp-cli
 ```
+## Install MEAN stack
+Follow the command from MEAN stack official website.
+```
+sudo npm install -g mean-cli
+mean init yourNewApp
+```
+It will create directory in the HOME directory.
 
+Change directory to yourNewApp and install npm. The code will be provided after create directory.
+```
+cd yourNewApp && npm install
+gulp
+```
+After that, check localhost:3000 on browser.
 
-
-
-
+This is how to install MEAN stack.
 
 
 
