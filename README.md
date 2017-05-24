@@ -4,7 +4,7 @@
 
 Install MEAN stack (Mac)
 
-##1. install nodebrew(node.js, npm)
+## 1. install nodebrew(node.js, npm)
 
 Check node.js and npm is already installed
 
@@ -62,7 +62,7 @@ Check if installation succeeded.
 nodebrew help
 ```
 
-##2. Install MongoDB
+## 2. Install MongoDB
 
 ```
 brew install mongodb
@@ -82,12 +82,12 @@ mongo
 ```
 If it works, exit.
 
-##3. install Bower
+## 3. install Bower
 Follow command below
 ```
 npm install -g bower
 ```
-##4. install Gulp
+## 4. install Gulp
 Follow command below
 ```
 sudo npm install -g gulp-cli
