@@ -2,7 +2,7 @@
 
 Today, I implement Posting System.
 
-![alt text](https://github.com/rorikata/tutorial_MEAN/blob/master/tutorial4/18767076_1296973697083075_642266339_o.jpg)
+![alt text](https://github.com/rorikata/tutorial_MEAN/blob/master/tutorial3_sns/18767076_1296973697083075_642266339_o.jpg)
 
 In the beginning, I made Logout.
 This will clear the local storage, and go back to sign up page.
