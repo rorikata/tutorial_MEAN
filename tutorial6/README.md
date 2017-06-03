@@ -1,7 +1,9 @@
 # tutorial6 6/3/2017
 
 basic use of angular.js
----
+
+
+```
 <html ng-app>
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
@@ -15,4 +17,4 @@ basic use of angular.js
     </div>
   </body>
 </html>
----
+```
